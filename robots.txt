@@ -1,0 +1,8 @@
+# robots.txt for bjhsaz.com
+
+User-agent: *
+Disallow: /admin/
+Disallow: /private/
+Disallow: /temp/
+
+Sitemap: https://bjhsaz.com/sitemap.xml

@@ -1,0 +1,76 @@
+<section class="contact-section bg-light">
+    <div class="container">
+        <div class="contact-grid">
+            <!-- Contact Info Column -->
+            <div class="contact-info-column">
+                <h2 class="section-title contact-title">Get In Touch</h2>
+
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <img src="svg/email.svg" alt="Email" width="32" height="32">
+                    </div>
+                    <div class="contact-details">
+                        <h3>Business Partnerships</h3>
+                        <p class="contact-description">For collaboration and new projects:</p>
+                        <a href="mailto:guomingliang@bjhsaz.com" class="contact-email">guomingliang@bjhsaz.com</a>
+                    </div>
+                </div>
+
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <img src="svg/tech-support.svg" alt="Support" width="32" height="32">
+                    </div>
+                    <div class="contact-details">
+                        <h3>Technical Support</h3>
+                        <p class="contact-description">For existing project assistance:</p>
+                        <a href="mailto:support@bjhsaz.com" class="contact-email">support@bjhsaz.com</a>
+                    </div>
+                </div>
+
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <img src="svg/location.svg" alt="Location" width="32" height="32">
+                    </div>
+                    <div class="contact-details">
+                        <h3>Office Location</h3>
+                        <p class="contact-address">
+                            (3rd Floor, Room 303) Room 8,<br>
+                            1st to 3rd Floor, Building 697,<br>
+                            Yangguang Street, Miyun District,<br>
+                            Beijing, China
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Form Column -->
+            <div class="contact-form-card">
+                <h2 class="form-title">Send a Message</h2>
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" placeholder="example@company.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="service">Interested Service</label>
+                        <select id="service" name="service">
+                            <option value="operation">Project Operation</option>
+                            <option value="development">Custom Development</option>
+                            <option value="partnership">General Partnership</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Your Message</label>
+                        <textarea id="message" name="message" rows="4" placeholder="How can we help you?" required></textarea>
+                    </div>
+                    <button type="submit" class="btn primary form-submit-btn">Send Message</button>
+                </form>
+                <div id="formMessage" class="form-message"></div>
+            </div>
+        </div>
+    </div>
+</section>
